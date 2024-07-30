@@ -1,7 +1,7 @@
 let collectionOfColors=['#00BCD4','#009688','#4CAF50','#03A9F4','#8BC34A','black']
 let walkingTeam=[];
 for (let t=0; t<collectionOfColors.length; t++) {
-  walkingTeam[t]= new Walker(500,400,5,collectionOfColors[t]);
+  walkingTeam[t]= new Walker(500,400,8,collectionOfColors[t]);
 }
 
 
