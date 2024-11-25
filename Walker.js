@@ -20,8 +20,8 @@ class Walker {
     let changeDirY=  random([-1,+1])
     this.x = this.x +this.step* changeDirX
     this.y = this.y +this.step* changeDirY
-    this.x = constrain(this.x, 0, width);
-    this.y = constrain(this.y, 0, height);
+    // this.x = constrain(this.x, 0, width);
+    // this.y = constrain(this.y, 0, height);
     this.showUp()
   }
 
