@@ -12,7 +12,7 @@ class Walker {
 
   showUp() {
     stroke(this.dotc);
-    strokeWeight(6);
+    strokeWeight(5);
     point(this.x, this.y);
   }
   doOneStep() {
